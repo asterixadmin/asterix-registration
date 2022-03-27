@@ -1,0 +1,24 @@
+Usage: matrix-registration [OPTIONS] COMMAND [ARGS]...
+
+  a token based matrix registration app
+
+Options:
+  --config-path TEXT  specifies the config file to be used
+  --version           Show the flask version
+  -h, --help          Show this message and exit.
+
+Commands:
+  generate  generate new token
+  serve     start api server
+  status    view status or disable
+Serving on http://localhost:5000
+matrix_registration.tokens - WARNING - User already used this token before!
+matrix_registration.tokens - WARNING - User already used this token before!
+matrix_registration.tokens - WARNING - User already used this token before!
+matrix_registration.tokens - WARNING - User already used this token before!
+matrix_registration.tokens - WARNING - User already used this token before!
+matrix_registration.tokens - WARNING - User already used this token before!
+matrix_registration.tokens - WARNING - User already used this token before!
+matrix_registration.tokens - WARNING - User already used this token before!
+matrix_registration.tokens - WARNING - User already used this token before!
+matrix_registration.tokens - WARNING - User already used this token before!
