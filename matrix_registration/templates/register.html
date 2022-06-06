@@ -83,9 +83,9 @@
   </article>
   <article id="success" class="widget modal hidden">
     <div class="center">
-      <header>
-        <h2 id="welcome"></h2>
-      </header>
+      <div>
+        <p id="welcome"></p>
+      </div>
       <section>
        
         
@@ -241,7 +241,7 @@
             showError("{{ translations.homeserver_error }}", response["error"])
           }
         } else {
-          document.getElementById("welcome").innerHTML = "{{ translations.welcome }} "  + response['user_id']
+          document.getElementById("welcome").innerHTML = "<a href='https://download.asterix.im/secure/client/android/asterix.apk'>Download Android App</a>"
           document.getElementById("success").classList.remove("hidden")
         }
 
