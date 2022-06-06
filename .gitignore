@@ -1,5 +1,5 @@
 # Project specific
-*.yaml
+
 *.conf
 !config.sample.yaml
 !tests/test_config.yaml
