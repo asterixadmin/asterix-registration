@@ -11,7 +11,7 @@ weblate:
   token: "Token"
   register: "register"
   click_to_login: "Click here to login in:"
-  choose_client: "or choose one of the many other clients here:"
+  choose_client: ":"
   username_format: "format: @username:{{ server_name }}"
   case_sensitive: "case-sensitive, e.g: SardineImpactReport"
   password_too_short: "atleast {{ pw_length }} characters long"
