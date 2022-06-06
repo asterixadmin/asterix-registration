@@ -1,8 +1,8 @@
 server_location: 'http://127.0.0.1:8008'
-server_name: 'gama.asterix.im'
-registration_shared_secret: 'tfbYC5ci4vw3ulro0d1GxHxTqKlQiyKW' # see your synapse's homeserver.yaml
-admin_api_shared_secret: 'APIAdminPassword' # to generate tokens via the web api
-base_url: '' # e.g. '/element' for https://example.tld/element/register
+server_name: 'app.asterix.im'
+registration_shared_secret: 'YR9EOlUhtQorqH4dEW4nkcNHLi95ClKF' # see your synapse's homeserver.yaml
+admin_api_shared_secret: 'register' # to generate tokens via the web api
+base_url: 'https://app.asterix.im/register' # e.g. '/element' for https://example.tld/element/register
 client_redirect: '#'
 client_logo: '#static/images/element-logo.png' # use '{cwd}' for current working directory
 db: 'sqlite:///{cwd}db.sqlite3'
@@ -38,7 +38,7 @@ logging:
       encoding: utf8
 # password requirements
 password:
-  min_length: 8
+  min_length: 5
 # username requirements
 username:
   validation_regex: [] #list of regexes that the selected username must match.        Example: '[a-zA-Z]\.[a-zA-Z]'
