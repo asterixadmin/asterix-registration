@@ -36,7 +36,7 @@ setuptools.setup(
     author_email='mail@zera.tax',
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/zeratax/matrix-registration",
+    url="https://github.com/asterixadmin/asterix-registration",
     packages=['matrix_registration'],
     package_data={'matrix_registration': ['*.txt','*.json',
                                           'translations/*.yaml',
